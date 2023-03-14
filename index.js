@@ -10,7 +10,7 @@ app.use(cors());
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "chatbox.vercel.app",
+    origin: "https://webchatbox.vercel.app",
     methods: ["GET", "POST"],
     transports: ['websocket']
   }
