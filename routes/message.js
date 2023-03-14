@@ -97,7 +97,7 @@ router.get("/contacts", fetchuser, async (req, res) => {
         // const allPresent
         
         const allUsernamePresent = []
-        let totalTime = 10*inContactsArr.length
+        let totalTime = 100*inContactsArr.length
         
         
         await inContactsArr.forEach( async (i) => {
